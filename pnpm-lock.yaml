@@ -8,6 +8,9 @@ dependencies:
   astro:
     specifier: ^4.15.11
     version: 4.15.11(typescript@5.6.2)
+  astro-vtbot:
+    specifier: ^1.10.2
+    version: 1.10.2
 
 packages:
 
@@ -980,6 +983,18 @@ packages:
     resolution: {integrity: sha512-zuVdFrMJiuCDQUMCzQaD6KL28MjnqqN8XnAqiEq9PNm/hCPTSGfrXCOfwj1ow4LFb/tNymJPwsNbVePc1xFqrQ==}
     dev: false
 
+  /@vtbag/element-crossing@1.0.1:
+    resolution: {integrity: sha512-UgZZOyeof2zainGD9FYjVqkwK8gvsv8ABVC5YA1iSlyt39c+2Fz7WRGBHiE/9Vqb22DpZTqF87ArHqkxG7+Y9g==}
+    dev: false
+
+  /@vtbag/inspection-chamber@1.0.14:
+    resolution: {integrity: sha512-YZJFgj/5q/7CnC2DQcHYgkxeuQSrkOEILthuKELm6q0R/3AlTO13W/lF0a2wwkH9KsFloiJA+W98RZf7HrqwuQ==}
+    dev: false
+
+  /@vtbag/turn-signal@1.0.2:
+    resolution: {integrity: sha512-7XVN1dOE1xMLOftGFCrhp0sRXU65erYyUQxacZmZDNyms6FauwI/Pu/+t6tZDs+BGSyam5Viwy0m6ZZbWiNsRg==}
+    dev: false
+
   /acorn@8.12.1:
     resolution: {integrity: sha512-tcpGyI9zbizT9JbV6oYE477V6mTlXvvi0T0G3SNIYE2apm/G5huBa1+K89VGeovbg+jycCrfhl3ADxErOuO6Jg==}
     engines: {node: '>=0.4.0'}
@@ -1031,6 +1046,14 @@ packages:
 
   /array-iterate@2.0.1:
     resolution: {integrity: sha512-I1jXZMjAgCMmxT4qxXfPXa6SthSoE8h6gkSI9BGGNv8mP8G/v0blc+qFnZu6K42vTOiuME596QaLO0TP3Lk0xg==}
+    dev: false
+
+  /astro-vtbot@1.10.2:
+    resolution: {integrity: sha512-1qWo5uGwEjTn+DAr1dGPuH8kSc2GGa10wsFSoS0vse2Fzz3UlItkGPj7tmyga50pRPAj3tBXtQVveXrpnLx9fA==}
+    dependencies:
+      '@vtbag/element-crossing': 1.0.1
+      '@vtbag/inspection-chamber': 1.0.14
+      '@vtbag/turn-signal': 1.0.2
     dev: false
 
   /astro@4.15.11(typescript@5.6.2):
